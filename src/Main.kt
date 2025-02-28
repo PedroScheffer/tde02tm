@@ -14,7 +14,7 @@ fun calcularMedia(numeros: List<Int>): Double {
 //para o portugues: blue, red, green, yellow
 
 fun traduzirCor(cor: String): String {
-    return when (cor) {
+    return when (cor) { // uso o when para verificar a cor
         "blue" -> "azul"
         "red" -> "vermelho"
         "green" -> "verde"
